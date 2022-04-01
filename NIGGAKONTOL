@@ -1,0 +1,841 @@
+
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+
+local UI = Material.Load({
+	Title = "03.s#6260 / Almost All Games", 
+	Style = 1,
+	SizeX = 500, -- Size in X
+	SizeY = 500,  -- Size in Y
+	Theme = "Dark"
+})
+
+-- pages.
+
+local Page = UI.New({
+	Title = "Main" 
+})
+
+local Page2 = UI.New({
+	Title = "Universal" 
+})
+
+local Page3 = UI.New({
+	Title = "Other Hub" 
+})
+
+local Page4 = UI.New({
+	Title = "FE Trolls" 
+})
+
+local Page5 = UI.New({
+	Title = "Credit" 
+})
+
+-- Scripts
+
+Page.Button({
+	Text = "Pet Simulator x",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
+	end
+})
+
+Page.Button({
+	Text = "Murder Mestery 2",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/34KnyYvi", true))()()
+	end
+})
+
+Page.Button({
+	Text = "Giant Survival",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/yAHub6260/koiougly/main/Protected%20(6).lua"))()
+	end
+})
+
+Page.Button({
+	Text = "Survive The Killer",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/03koios/koio/main/koiostk"))()
+	end
+})
+
+Page.Button({
+	Text = "Strucid",
+	Callback = function()
+		pcall(loadstring(game:HttpGet("https://cdn.julman.fr/scripts/6.lua")))
+	end
+})
+
+Page.Button({
+	Text = "JailBreak",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua"))()
+	end
+})
+
+Page.Button({
+	Text = "Funky Friday",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/scripts/main/fnf.lua"))()
+	end
+})
+
+Page.Button({
+	Text = "Demon Fall",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/StepBroFurious/Script/main/FuriousFall.lua"))()
+
+	end
+})
+
+Page.Button({
+	Text = "Kick Off infinite trickshot and stamina",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/06fLbwfP"))();
+	end
+})
+
+Page.Button({
+	Text = "Lucky Blox",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/YzVmSVF9", true))()
+	end
+})
+
+Page.Button({
+	Text = "Natural Disater Survival",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringUjHI6RQpz2o8", true))()
+	end
+})
+
+Page.Button({
+	Text = "Da Hood",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/EliasAtto1/BeamedWare/main/BeamedWare", true))()
+	end
+})
+
+Page.Button({
+	Text = "Bedwars Vape 4",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+	end
+})
+
+Page.Button({
+	Text = "Prison Life",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/7Mc8z4ae", true))()
+	end
+})
+
+Page.Button({
+	Text = "Ragdoll Engine",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/martinelcrac/cryptonichub/main/Ragdollengine.lua'))()
+	end
+})
+
+Page.Button({
+	Text = "Driving Empire",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/KPRAAHUE/driving-empire-autofarm2/main/README.md"))()
+	end
+})
+
+Page.Button({
+	Text = "Counter Blox",
+	Callback = function()
+		pcall(loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/scripts/main/CounterBlox.lua")))
+	end
+})
+
+Page.Button({
+	Text = "All Star Tower Defense",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/KarmaPanda/Roblox/main/astd-aio.lua'))()
+	end
+})
+
+Page.Button({
+	Text = "Trade Tower",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/TrixAde/scripts/main/TradeTowerZenX.lua'))()
+	end
+})
+
+Page.Button({
+	Text = "Shark Bite",
+	Callback = function()
+		pcall(loadstring(game:HttpGet("https://pastebin.com/raw/SUy4gZBc")))
+	end
+})
+
+Page.Button({
+	Text = "Piggy",
+	Callback = function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/ZNDQBwFy'))()
+	end
+})
+
+Page.Button({
+	Text = "Muscle Legends",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/scripts/main/MuscleLegendsVgHub.lua"))()
+	end
+})
+
+Page.Button({
+	Text = "The Wild West",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub"))()
+	end
+})
+
+Page.Button({
+	Text = "Phamtom Force",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/scripts/main/PhantomesForcesOpPannel.lua",true))()
+	end
+})
+
+Page.Button({
+	Text = "AUT",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/sannin9000/scripts/main/aut.lua"))()
+	end
+})
+
+Page.Button({
+	Text = "Naruto Magic",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/bfxFW9a7", true))()
+	end
+})
+
+Page.Button({
+	Text = "Island",
+	Callback = function()
+		loadstring(game:HttpGet("http://void-scripts.com/Scripts/islands_new.lua"))()
+	end
+})
+
+Page.Button({
+	Text = "Island Survival",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/scripts/main/islandssurvival.lua"))()
+	end
+})
+
+Page.Button({
+	Text = "Pet Swarm Simulator",
+	Callback = function()
+		loadstring(game:HttpGet("http://void-scripts.com/Scripts/petSwarmSim.lua"))()
+	end
+})
+
+Page.Button({
+	Text = "Plane Crazy",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/z3HxCUjD", true))()
+	end
+})
+
+Page.Button({
+	Text = "Project Star",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/Project%20Star"))()
+	end
+})
+
+Page.Button({
+	Text = "Project XL",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/littlegui/main/Project-XL'))()
+	end
+})
+
+Page.Button({
+	Text = "Spider",
+	Callback = function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/6r9yvrs4')))()
+	end
+})
+
+Page.Button({
+	Text = "Breakin Point",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/1iseo/breaking-point-public/main/main.lua"))()
+	end
+})
+
+Page.Button({
+	Text = "Build A Boat",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/1EQmGiQr", true))()
+	end
+})
+
+
+Page.Button({
+	Text = "Arsenal",
+	Callback = function()
+		pcall(loadstring(game:HttpGet("https://cdn.julman.fr/scripts/6.lua")))
+	end
+})
+
+
+Page.Button({
+	Text = "KAT",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/78kG7trR", true))()
+	end
+})
+
+Page.Button({
+	Text = "Tower Of Hell",
+	Callback = function()
+		pcall(loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/scripts/main/towerofhell.lua")))
+	end
+})
+
+Page.Button({
+	Text = "Tower Of Mistery",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/dizyhvh/rbx_scripts/main/tower_of_misery.lua"))()
+	end
+})
+
+Page.Button({
+	Text = "YBA",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Tobias020108Back/YBA-AUT/main/YBA-GUI-Rewrite.lua"))() 
+
+	end
+})
+
+Page3.Button({
+	Text = "fates esp",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/fatesc/fates-esp/main/main.lua'))()
+	end
+})
+
+Page.Button({
+	Text = "Lumber Tycoon 2",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/DragonDupe/SubscribeDragonDupe/main/DragonDupeGUI'))()
+	end
+})
+
+Page.Button({
+	Text = "museum tycoon",
+	Callback = function()
+		loadstring(game:HttpGet('https://rentry.co/uypm8/raw'))()
+
+	end
+})
+
+Page.Button({
+	Text = "millionaire empire tycoon",
+	Callback = function()
+		game:GetService("ReplicatedStorage").RespawnService:FireServer(9e17)
+	end
+})
+
+Page.Button({
+	Text = "Slayer Tycoon",
+	Callback = function()
+		loadstring(game:HttpGet"https://pastebinp.com/raw/eccv9pgu")()()
+	end
+})
+
+Page.Button({
+	Text = "Zombie Rush",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end
+})
+
+
+Page.Button({
+	Text = "Zombie Attck",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end
+})
+
+Page.Button({
+	Text = "Critical Legends",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/littlegui/main/CL-Loader'))()
+	end
+})
+
+Page.Button({
+	Text = "Aimblox",
+	Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Straden/Scripts/main/stronccMain.lua'),true))()
+	end
+})
+
+Page.Button({
+	Text = "Destruction Simulator",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/witnessezcode/witnessezhub/main/loader",true))()
+	end
+})
+
+Page.Button({
+	Text = "Bubble Gum Simulator",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/scripts/main/BgsAztupBrewScript.lua"))()
+	end
+})
+
+Page.Button({
+	Text = "Amongst us",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/scripts/main/AmongstUsInstantTask.lua", true))()
+	end
+})
+
+Page.Button({
+	Text = "Work A Pizza Place",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/scripts/main/work-a-pizza-place.lua",true))()
+	end
+})
+
+
+Page.Button({
+	Text = "Super Slayers",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/toskaman/fb/master/Slay", true))()
+	end
+})
+
+Page.Button({
+	Text = "Mega Fun Obby",
+	Callback = function()
+		pcall(loadstring(game:HttpGet("https://pastebin.com/raw/fRqQAgYW")))
+	end
+})
+
+Page.Button({
+	Text = "Mega Easy Obby",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/X361rzKq"))()
+	end
+})
+
+Page.Button({
+	Text = "Mega Marble Run Pit",
+	Callback = function()
+		pcall(loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/scripts/main/megamarble.lua")))
+	end
+})
+
+Page.Button({
+	Text = "Giant Simulator",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/tBZFVyc8", true))()
+	end
+})
+
+
+
+
+-- One Piece
+
+Page.Button({
+	Text = "Blox Fruit",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded"))()
+
+	end
+})
+
+Page.Button({
+	Text = "Blox Fruit 2",
+	Callback = function()
+		loadstring(game:HttpGet"https://raw.githubusercontent.com/naypramx/Crack/Script/MaruCracked")()
+
+	end
+})
+
+Page.Button({
+	Text = "King Legacy",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/koio08199za/King-Legacy-/main/NOOB%20HUB.Lua"))()
+	end
+})
+
+Page.Button({
+	Text = "King Legacy 2",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/sannin9000/scripts/main/kinglegacy.lua"))()
+	end
+})
+
+Page.Button({
+	Text = "True Piece",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/simulatorwinner/scripts/main/True-Piece-GUI.lua"))()
+	end
+})
+
+Page.Button({
+	Text = "A 0ne Piece Game",
+	Callback = function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/loader_1038"))()
+	end
+})
+
+Page.Button({
+	Text = "Two Piece",
+	Callback = function()
+		loadstring(game:HttpGet"https://raw.githubusercontent.com/KuppaHX/Saza/main/SazaLoader.lua")()
+	end
+})
+
+Page.Button({
+	Text = "Grand Piece Online",
+	Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Jakekill871/public-scripts/master/GrandPieceOnlineGUI'),true))()
+	end
+})
+
+Page.Button({
+	Text = "Grand Piece Online DevilFruit Notifier Key 333",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/ArponAG/Scripts/main/gpo.lua', true))()
+	end
+})
+
+Page2.Button({
+	Text = "Anti Afk",
+	Callback = function()
+		pcall(loadstring(game:HttpGet("https://pastebin.com/raw/dnwYtGCQ")))
+	end
+})
+
+Page2.Button({
+	Text = "esp",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua"))()
+	end
+})
+
+Page2.Button({
+	Text = "Cmd X",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source', true))()
+	end
+})
+
+Page2.Button({
+	Text = "Dark Dex",
+	Callback = function()
+		pcall(loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/scripts/main/explorer.lua")))
+	end
+})
+
+Page2.Button({
+	Text = "Btools",
+	Callback = function()
+		Instance.new("HopperBin", game.Players.LocalPlayer.Backpack).BinType = 2
+		Instance.new("HopperBin", game.Players.LocalPlayer.Backpack).BinType = 3
+		Instance.new("HopperBin", game.Players.LocalPlayer.Backpack).BinType = 4
+	end
+})
+
+Page2.Button({
+	Text = "Fates admin ",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
+	end
+})
+
+Page2.Button({
+	Text = "TP TOOL",
+	Callback = function()
+		pcall(loadstring(game:HttpGet("https://pastebin.com/raw/njMw0Bke")))
+	end
+})
+
+Page2.Button({
+	Text = "Xray press X ",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/vNpnSDCz", true))()
+	end
+})
+
+Page2.Button({
+	Text = "Gravity",
+	Callback = function()
+		pcall(loadstring(game:HttpGet("https://pastebin.com/raw/0JgQ1hJy")))
+	end
+})
+
+Page2.Button({
+	Text = "R6 ADMIN",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/CKbPg9NC", true))()
+	end
+})
+
+Page2.Button({
+	Text = "infinite yield",
+	Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	end
+})
+
+
+Page3.Button({
+	Text = "POTATO HUB",
+	Callback = function()
+		loadstring(game:HttpGet("https://paste.ee/r/XLYkw"))();
+	end
+})
+
+Page3.Button({
+	Text = "Vg hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub"))()
+	end
+})
+
+Page3.Button({
+	Text = "Owl Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+	end
+})
+
+Page3.Button({
+	Text = "Wave Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/8NMatKzn", true))()
+	end
+})
+
+Page3.Button({
+	Text = "Dark hub",
+	Callback = function()
+		pcall(loadstring(game:HttpGet("https://cdn.julman.fr/scripts/6.lua")))
+	end
+})
+
+Page3.Button({
+	Text = "Dino hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/1EQmGiQr", true))()
+	end
+})
+
+Page3.Button({
+	Text = "Eclipse hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/34KnyYvi", true))()
+	end
+})
+
+Page3.Button({
+	Text = "Bruh Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://bruh.keshsenpai.com/.lua"))()
+	end
+})
+
+Page3.Button({
+	Text = "Catix Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/quentin452/CATIX-HUB/master/!Catix%20Hub", true))()
+	end
+})
+
+
+
+Page4.Button({
+	Text = "KNIFE",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/TPZXG8fH", true))()
+	end
+})
+
+Page4.Button({
+	Text = "GUN",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/SeRxrgci", true))()
+	end
+})
+
+Page4.Button({
+	Text = "Clone",
+	Callback = function()
+		loadstring(game:GetObjects('rbxassetid://7339698872')[1].Source)() 
+	end
+})
+
+Page4.Button({
+	Text = "6 Sword",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/80juE2kw", true))()
+	end
+})
+
+Page4.Button({
+	Text = "John Doe",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/scripts/main/JohnDoe.lua", true))()
+	end
+})
+
+Page4.Button({
+	Text = "FE CAR",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/MonkoTubeYT/carscript/master/!carscript.lua',true))()
+	end
+})
+
+Page4.Button({
+	Text = "Assasin form",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/bKu2GuzN", true))()
+	end
+})
+
+Page4.Button({
+	Text = "Goku Ssj Form",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/vFmVuXk4", true))()
+	end
+})
+
+Page4.Button({
+	Text = "Dominus Astra",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/TrixAde/scripts/main/DominusAstra.lua',true))()
+	end
+})
+
+Page4.Button({
+	Text = "Dominus Praefectus",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/scripts/main/PraefectusDominus.lua", true))()
+	end
+})
+
+Page4.Button({
+	Text = "Free Animation",
+	Callback = function()
+		pcall(loadstring(game:HttpGet("https://pastebin.com/raw/V6ykTV4g")))
+	end
+})
+
+Page4.Button({
+	Text = "Free Dance",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/scripts/main/FreeDanceUniversal.lua"))()
+	end
+})
+
+Page4.Button({
+	Text = "Madara Form",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/LYjZdycr", true))()
+	end
+})
+
+Page4.Button({
+	Text = "Beerus Form",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/c1TGDAKC", true))()
+	end
+})
+
+Page4.Button({
+	Text = "absalom titan form",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/ZmySaMrb", true))()
+	end
+})
+
+Page4.Button({
+	Text = "Lightning Blade",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/scripts/main/LightningBlade.lua", true))()
+	end
+})
+
+Page4.Button({
+	Text = "Omega Form",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/VSerZV3e", true))()
+	end
+})
+
+Page4.Button({
+	Text = "Fe Control",
+	Callback = function()
+		plr = game.Players.LocalPlayer ControlGui = Instance.new("\83\99\114\101\101\110\71\117\105") Frame = Instance.new("\70\114\97\109\101") TextButton = Instance.new("\84\101\120\116\66\117\116\116\111\110") TextBox = Instance.new("\84\101\120\116\66\111\120") ControlGui.Name = "\67\111\110\116\114\111\108\71\117\105" ControlGui.Parent = plr.PlayerGui Frame.Parent = ControlGui Frame.BackgroundColor3 = Color3.new(1, 1, 1) Frame.Position = UDim2.new(0, 300, 0, 200) Frame.Size = UDim2.new(0, 300, 0, 150) Frame.Active = true Frame.Draggable = true TextButton.Parent = Frame TextButton.BackgroundColor3 = Color3.new(1, 1, 1) TextButton.Position = UDim2.new(0, 50, 0, 90) TextButton.Size = UDim2.new(0, 200, 0, 50) TextButton.Font = Enum.Font.SourceSans TextButton.FontSize = Enum.FontSize.Size32 TextButton.Text = "\67\111\110\116\114\111\108" TextButton.TextSize = 30 TextButton.MouseButton1Down:connect(function() if TextButton.Text == "\67\111\110\116\114\111\108" then TextButton.Text = "\85\110\67\111\110\116\114\111\108"  workspace[TextBox.Text].Humanoid.PlatformStand = true W1 = Instance.new("\87\101\108\100",workspace) W1.Name = "\87\101\108\100\49" W1.Part0 = plr.Character.Torso W1.Part1 = workspace[TextBox.Text].Torso W2 = Instance.new("\87\101\108\100",workspace) W2.Name = "\87\101\108\100\50" W2.Part0 = plr.Character.Head W2.Part1 = workspace[TextBox.Text].Head W3 = Instance.new("\87\101\108\100",workspace) W3.Name = "\87\101\108\100\51" W3.Part0 = plr.Character.HumanoidRootPart W3.Part1 = workspace[TextBox.Text].HumanoidRootPart W4 = Instance.new("\87\101\108\100",workspace) W4.Name = "\87\101\108\100\52" W4.Part0 = plr.Character["\76\101\102\116\32\65\114\109"] W4.Part1 = workspace[TextBox.Text]["\76\101\102\116\32\65\114\109"] W5 = Instance.new("\87\101\108\100",workspace) W5.Name = "\87\101\108\100\53" W5.Part0 = plr.Character["\76\101\102\116\32\76\101\103"] W5.Part1 = workspace[TextBox.Text]["\76\101\102\116\32\76\101\103"] W6 = Instance.new("\87\101\108\100",workspace) W6.Name = "\87\101\108\100\54" W6.Part0 = plr.Character["\82\105\103\104\116\32\65\114\109"] W6.Part1 = workspace[TextBox.Text]["\82\105\103\104\116\32\65\114\109"] W7 = Instance.new("\87\101\108\100",workspace) W7.Name = "\87\101\108\100\55" W7.Part0 = plr.Character["\82\105\103\104\116\32\76\101\103"] W7.Part1 = workspace[TextBox.Text]["\82\105\103\104\116\32\76\101\103"] for i,v in pairs(plr.Character:GetChildren()) do if v.ClassName == "\80\97\114\116" then v.Transparency = 1 end plr.Character.HumanoidRootPart.Transparency = 1 if v.ClassName == "\65\99\99\101\115\115\111\114\121" then v.Handle.Transparency = 1 end plr.Character.Humanoid.NameOcclusion = "\78\111\79\99\99\108\117\115\105\111\110" end elseif TextButton.Text == "\85\110\67\111\110\116\114\111\108" then TextButton.Text = "\67\111\110\116\114\111\108" workspace[TextBox.Text].Humanoid.PlatformStand = false workspace.Weld1:Remove() workspace.Weld2:Remove() workspace.Weld3:Remove() workspace.Weld4:Remove() workspace.Weld5:Remove() workspace.Weld6:Remove() workspace.Weld7:Remove() for i,v in pairs(plr.Character:GetChildren()) do if v.ClassName == "\80\97\114\116" then v.Transparency = 0 end plr.Character.HumanoidRootPart.Transparency = 1 if v.ClassName == "\65\99\99\101\115\115\111\114\121" then v.Handle.Transparency = 0 end plr.Character.Humanoid.NameOcclusion = "\79\99\99\108\117\100\101\65\108\108" end end end) TextBox.Parent = Frame TextBox.BackgroundColor3 = Color3.new(1, 1, 1) TextBox.Position = UDim2.new(0, 50, 0, 20) TextBox.Size = UDim2.new(0, 200, 0, 30) TextBox.Font = Enum.Font.SourceSans TextBox.FontSize = Enum.FontSize.Size28 TextBox.Text = "\78\97\109\101" TextBox.TextSize = 25 
+	end
+})
+
+Page4.Button({
+	Text = "Fe Legacy",
+	Callback = function()
+		loadstring(game:GetObjects("rbxassetid://1683559539")[1].Source)()
+	end
+})
+
+Page4.Button({
+	Text = "Zenatic Form",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/wTJxmWyG", true))()
+	end
+})
+Page5.Button({
+	Text = "Executor Support Krnl Synapse Trigon TGN X Electron Arceus x",
+	Callback = function()
+
+	end
+})
+
+Page5.Button({
+	Text = "Made By 03.s#6260",
+	Callback = function()
+		setclipboard("03.s#6260")
+
+	end
+})
+
+
+Page5.Button({
+	Text = "Youtube Link",
+	Callback = function()
+		setclipboard("https://www.youtube.com/channel/UC92aBBDpwMA8DIv0UArKDKA/videos")
+
+	end
+})
+
+Page5.Button({
+	Text = "Youtube Link 2",
+	Callback = function()
+		setclipboard("https://www.youtube.com/channel/UC46AtUT2wYwjxDImBBWmKlw/videos")
+
+	end
+})
+
+Page5.Button({
+	Text = "Discord Poom Hub",
+	Callback = function()
+		setclipboard("https://discord.gg/jxuvrM544n")
+
+	end
+})
